@@ -9,7 +9,7 @@ public interface IUIReq
 
     public bool IsUseable { get; }
 
-    public object[] InitData { get; protected set; }
+    public object[] InitData { get; set; }
 
     public UIBasePanel UI { get; set; }
 
