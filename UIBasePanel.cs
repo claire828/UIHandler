@@ -5,7 +5,6 @@ using UnityEngine;
 abstract public class UIBasePanel : MonoBehaviour {
 
     public IUIReq Req { get; private set; }
-    private object[] Datas { get;  set; }
     private bool InWaitingState { get; set; }
     private bool WaitingForFinish { get; set; }
 
